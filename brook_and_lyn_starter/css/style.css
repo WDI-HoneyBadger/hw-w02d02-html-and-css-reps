@@ -12,3 +12,71 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+body {
+	margin: 0;
+    margin-top: 50px;
+    background-color: white;
+	padding: 0px 5%;
+	color: #656565;
+	font-size: 12px;
+	width: 1000px;
+}
+h1{
+	font-family: 'Times New Roman', Times, serif ;
+	color:gray;
+	padding-bottom: 3px;
+	margin: 0;
+}
+div {
+	padding-bottom: 0%;
+}
+ .block1{
+	background-image: url("../images/home-bloghero.png");
+	height:600px;
+	width: 100%;
+	padding:0px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	
+}
+.block2{
+	background-image: url("../images/home-rings.png");
+	height:600px;
+	width: 100%;
+	padding:0px;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+p{
+	font-size: 12px;
+	color: rgb(179, 175, 175); 
+}
+h4 {
+	color: rgba(54, 99, 158, 0.863);
+}
+a{
+	display: inline;
+	text-decoration-line: none;
+
+}
+h6{
+	color: rgba(54, 99, 158, 0.863);
+	margin-right: 66px;
+
+}
+.block4{
+	border-image: 2em;
+	border-color: #656565;
+	padding: 2px
+	
+}
+img{
+	border: 2em;
+	border-color: #656565;
+}
+.img-asied img{
+	border: solid 2px black; 
+}
+.txt-pr p{
+
+}
