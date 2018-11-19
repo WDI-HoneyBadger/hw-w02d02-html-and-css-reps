@@ -12,3 +12,62 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+
+body{
+	margin: 0px;
+	padding:10px 40px;
+	font-size: 12px;
+	line-height: 17px;
+	Font-family: "Times New Roman", serif;
+	color:#656565;
+}
+ .container{
+	width: 100%;	
+	margin: 10px auto;
+}
+h1{
+	color: rgba(101, 101, 101, .7);
+}
+.container > img{
+	margin-bottom: 10px;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color:lightblue;
+}
+a:hover{
+	color:#20222a;
+}
+.mgzBox1{
+	border: 2px solid rgba(101, 101, 101, .5);
+	margin-right: 5px;
+	padding: 2px;
+	width: 23%;
+}
+.mgzBox2{
+	border: 2px solid rgba(101, 101, 101, .5);
+	margin-right: 5px;
+	padding: 2px;
+	width: 23%;
+}
+.mgzBox3{
+	border: 2px solid rgba(101, 101, 101, .5);
+	margin-right: 5px;
+	padding: 2px;
+	width: 23%;
+}
+.mgzBox4{
+	border: 2px solid rgba(101, 101, 101, .5);
+	margin:0px;
+	padding: 2px;
+	width: 23%;
+}
+p{
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+footer{
+	text-align: left;
+}
