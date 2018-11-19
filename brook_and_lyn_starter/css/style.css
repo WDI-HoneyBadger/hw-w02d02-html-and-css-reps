@@ -12,3 +12,51 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+body {
+	font-family: "Times New Roman", serif;
+	line-height: 17px;
+	color: #656565;
+	margin: 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.first > p, footer > p {
+	line-height: 20px;
+	font-size: 12px;
+	margin-top: 0;
+	text-align: justify;
+}
+
+.first > p > a {
+	text-decoration: none;
+	color: #3567c5;
+}
+
+.first > p > a:hover {
+	color: #20222a;
+}
+
+.first > img {
+	width: 100%;
+}
+
+.date {
+	color: #3567c5;
+	margin: 0;
+}
+
+.eachImage {
+	display: inline-block;
+}
+.eachImage > img {
+	border: 3px solid #b3b3b3;
+	box-sizing: border-box;
+	width: 160px;
+	height: 110px;
+	margin: 0;
+}
+
