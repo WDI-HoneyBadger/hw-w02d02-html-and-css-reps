@@ -49,22 +49,41 @@ BASE STYLE
 body {
   /*  What syles apply to all of the body contain */
   /* background? font-faimly?  etc.*/
+
+  background-image: url('../images/background.jpg');
+  background-repeat: repeat-x; background-color: #d6d6d6;
+  font-family: Helvetica;
+  font-size:12px;
+  padding: 35px 0;
+  line-height:1.7;
+  
 }
 
 a {
-	/* How are 'a' tags styled? */
+  /* How are 'a' tags styled? */
+  color:#ff3300;
+  text-decoration: none;
 }
 
 h1 a {
   /* What should 'a' tags WITHIN 'h1' tags look like? */
+  text-align: center;
+  display: block;
+  object-fit: cover;
+  height: auto;
+  width: auto;
 }
 
 h2 {
   /* What should 'h2' tags look like? */
+  font-size: 20px;
+  margin: 10px 0px;
 }
 
 h2 a {
     /* What should 'a' tags WITHIN 'h2' tags look like? */
+    color:black;
+    text-decoration: none;
 }
 
 
@@ -78,7 +97,9 @@ LAYOUT
 
 /* Center the container */
 #container {
-	/* ??  */
+  /* ??  */
+  padding:10px 200px;
+  margin:10px 50px;
 }
 
 #header {
@@ -86,37 +107,71 @@ LAYOUT
 }
 
 #main {
-	/* ??  */
+  /* ??  */
+  float: left;
+  width:45%;
 }
 
 .post {
   /* ??  */
+
+  background-color: white;
+  float:left;
+  padding:20px;
+ 
+  
 }
+
+.post a{font-weight: bold;}
 
 .post-meta {
-  /* ??  */
+  
+  border-top: 1px dotted gray;
+  border-bottom: 2px solid black;
+  padding:10px;
 }
 
+.post-meta > .meta{
+  color:red;
+  font-weight: bold;
+}
+
+
 #sidebar {
-	/* ??  */
+  /* ??  */
+  background-color:white;
+  float:right;
+  padding: 0 20px;
 }
 
 #sidebar .widget {
   /* ??  */
+  
+  padding: 10px 0;
+  
 }
 
 #sidebar ul {
-	/* ??  */
+  /* ??  */
+  list-style:none;
+  text-align: left;
+  padding:0;
+  
 }
 
 #sidebar li {
-	/* ??  */
+  /* ??  */
+
+  font-weight: bold;
 }
 
 #sidebar a {
-	/* ??  */
+  /* ??  */
+  color:black;
 }
 
 footer {
-	/* ??  */
+  /* ??  */
+  text-align:center;
+  margin-top:30px;
 }
