@@ -49,23 +49,46 @@ BASE STYLE
 body {
   /*  What syles apply to all of the body contain */
   /* background? font-faimly?  etc.*/
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: #d6d6d6;
+  background-image: url(/starter_ecardly/images/);
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+  
 }
 
 a {
-	/* How are 'a' tags styled? */
+  /* How are 'a' tags styled? */
+  text-decoration: none;
+  color: #ff3300;
 }
 
 h1 a {
   /* What should 'a' tags WITHIN 'h1' tags look like? */
+display: block;
+align-content: center;
+text-align: center;
+
 }
+
 
 h2 {
   /* What should 'h2' tags look like? */
+  color: black;
+
 }
 
 h2 a {
     /* What should 'a' tags WITHIN 'h2' tags look like? */
-}
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px 0px;
+
+  
+  }
 
 
 
@@ -78,31 +101,54 @@ LAYOUT
 
 /* Center the container */
 #container {
-	/* ??  */
+  /* ??  */
+  width:80%;
+  margin: auto;
+  padding: 5%;
+
 }
 
 #header {
-	/* ??  */
+  /* ??  */
+  height: 50%;
+  border-bottom:10px;
 }
 
 #main {
-	/* ??  */
+  /* ??  */
+  background-color: white;
+  height: 500px;
+  width: 70%;
+  float: left;
 }
 
 .post {
   /* ??  */
+  height: fit-content;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 1px;
 }
 
 .post-meta {
   /* ??  */
+  padding: 10px;
+  align-content: center;
+  border-top: 1px solid black;
+
 }
 
 #sidebar {
-	/* ??  */
+  /* ??  */
+  width: fit-content;                 
+  height: 300px;
+  background: white;
+  float: right;
 }
 
 #sidebar .widget {
   /* ??  */
+
 }
 
 #sidebar ul {
@@ -118,5 +164,7 @@ LAYOUT
 }
 
 footer {
-	/* ??  */
+  /* ??  */
+  text-align: center;
+  height: 200px;
 }
