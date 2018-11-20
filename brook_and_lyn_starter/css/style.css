@@ -12,3 +12,54 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+
+html{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+body{
+	padding: 20px 5%;
+	font-family: 'Times New Roman', serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #656565;
+}
+
+h1{
+	/* margin: 5px 0; */
+	font-size: 40px;
+	color: #a8a8a8;
+}
+
+.bigImg{
+	display: block;
+	width: 100%;
+	margin: 10px 0px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+label{
+	color: rgb(88, 169, 219);
+	font-weight: 520;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(88, 169, 219);
+}
+a:hover{
+	color: #20222a;
+}
+
+.imgLink{
+	width: 23.5%;
+	border-style: solid double;
+	border-color: #cccbcb;
+	border-width: 5px;
+	margin-top: 10px;
+}
