@@ -1,3 +1,65 @@
+#headline{
+	font-size: 30px;
+	height: 17px;
+	font-family: "Times New Roman", serif;
+	color: #656565 
+}
+body{
+	font-size: 20px;
+	height: 17px;
+	font-family: "Times New Roman", serif;
+	color: #656565 ;
+}
+
+#headline2{
+	font-size: 15px;
+	color: #656565;
+	font-family: "Times New Roman", serif;
+}
+#headline3{
+	font-size: 15px ;
+	color :blue;
+	font-family: "Times New Roman", serif;
+}
+p {
+	font-size: 15px ;
+}
+#container {
+	/* display: inline-block; */
+	/* padding-left: 100px; */
+	/* float: left; */
+	margin: 0 auto;
+	/* float: none; */
+	width: 100%;
+	/* padding: 5px; */
+	/* width: 20px; */
+	height:200px;
+	border: 10px;
+	/* padding: 25px ; */
+	/* padding: 0px 5%; */
+
+
+}
+.image {
+	/* border: 10px;
+	padding: 25px ; */
+	/* width: 20px; */
+	display: inline-block;
+	width: 220px;
+	height: 140px;
+	border: 8px solid #a1a1a1;
+}
+
+.image > img {
+	height: 100%;
+
+
+}
+
+footer{
+	font-size: 10px ;
+}
+
 /*
 
 ## Style Hints:
