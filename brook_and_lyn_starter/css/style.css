@@ -12,3 +12,48 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+
+body{
+	margin: 0px;
+	font-size: 12px;
+	line-height: 17px;
+	font-family: "Times New Roman", serif;
+	color: #656565;
+}
+/* I applied to the page, but I don't know if it's working on tha pictures */
+a:hover{
+	color: #20222a;
+	
+}
+
+#container > .header > .a1 > .img1  {
+	height: auto;
+	width: auto;
+	padding: 10px;
+}
+
+#container > .header > .a2 > .img2 {
+	overflow: auto;
+	height: auto;
+	width: 100%;
+}
+
+#container > .header > .a3 > .img3 {
+	
+	height: auto;
+	width: 100%;
+}
+
+#container > .main > .footer  {
+	display: inline-block;
+
+}
+
+#container > .main > .footer > a > img {
+
+	width: 24vw;
+
+}
+.main h2, h3, p {
+	padding-left: 5px;
+}
