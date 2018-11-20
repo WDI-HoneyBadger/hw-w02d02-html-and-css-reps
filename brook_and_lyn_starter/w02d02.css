@@ -1,0 +1,49 @@
+body {
+	margin: 25px;
+	padding: 10px;
+
+}
+h1 , h6{
+	color: #b6b1b1;
+}
+h5 {
+	color: rgb(34, 111, 226)
+}
+
+
+
+
+#footer {
+display: inline;
+} 
+p {
+	font: #656565;
+	font-size: 12px;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 17px;
+}
+
+.imageOne {
+	
+	display: inline;
+	border-color: #656565;
+}
+.ImgBorder1 {
+	border-width: 10px;
+	border-color: #8a1919
+}
+.imagetwo {
+	
+	display: inline;
+}
+.imagethree {
+	
+	display: inline;
+}
+.imagefour {
+	
+	display: inline;
+}
+a {
+	color: rgb(34, 111, 226)
+}
