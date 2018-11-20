@@ -30,7 +30,8 @@ h3 {
 }
 
 .images {
-	width: 100%;	
+	width: 100%;
+	display: inline;	
 }
 
 .ourLatest {
@@ -42,6 +43,8 @@ h3 {
 }
 
 .img {
-	border: 4px solid #656565;
-	display: inline;
+	display: inline;	
+
+	
 }
+
