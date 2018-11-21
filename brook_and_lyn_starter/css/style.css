@@ -1,4 +1,53 @@
-/*
+body{
+	margin: auto;
+	padding: 10px 15%;
+	font-size: 12px;
+	font-family:'Times New Roman', Times, serif; 
+	color:#656565;
+	
+}
+
+#date {
+	color: blue;
+	
+}
+
+#container  {
+	margin: auto;
+	
+}
+
+#container > .image1 {
+	padding: 30px 0px;
+
+}
+
+#container > .image2 {
+	padding: 30px 0px;
+
+}
+
+.images {
+	border: 1px #ddd;
+	margin:25px; 
+	
+    
+    
+}
+
+.img:hover {
+	border-color: yellowgreen;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+
+
+
+
+
+  /*
 
 ## Style Hints:
 
@@ -7,7 +56,7 @@ Body Font Size = 12px
 	 Font Family = "Times New Roman", serif
 	 Font Color = #656565
 
-Link Hover Color = #20222a
+Link Hover Color = #20222a//
 
 GO FOR IT  :D   Don't worry about getting it exact!
 
