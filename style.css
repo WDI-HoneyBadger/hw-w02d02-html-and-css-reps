@@ -1,0 +1,32 @@
+
+body{
+    font-size: 12px;
+    font-family: 'Times New Roman', serif;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+#container{
+
+    padding: 38px;
+    display: block;
+    
+   
+
+}
+
+#footer{
+    width: 64%;
+    display: flex;
+    border: 4px solid blanchedalmond;
+    padding: 1px;
+
+}
+
+a:hover{
+    color: #20222a;
+}
+
