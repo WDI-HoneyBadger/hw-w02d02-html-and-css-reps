@@ -1,14 +1,50 @@
-/*
+#Brook{
+	color: rgb(223, 223, 223);
+	
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+#x1{
+	margin-left: 150px;
 
-## Style Hints:
+}
+#x2{
+	margin-left: 150px;
 
-Body Font Size = 12px
-	 Line Height = 17px
-	 Font Family = "Times New Roman", serif
-	 Font Color = #656565
+}
+#siez{
+	margin-top: 0px;
 
-Link Hover Color = #20222a
+	color: rgb(182, 182, 182);
 
-GO FOR IT  :D   Don't worry about getting it exact!
+	font-weight: bold;
 
-*/
+	font-size: 18px;
+	margin-left: 150px;	
+}
+#siez2{
+	color: rgb(172, 172, 172);
+	font-weight: bold;
+	font-size: 16px;
+		margin-left: 150px;	
+
+}
+#col{
+	color: rgb(61, 145, 255);
+
+}
+#se{
+	margin-left: 150px;
+
+}
+.bor{
+	border:  solid rgb(121, 121, 121);
+
+}
+#color3{
+	color: rgb(145, 145, 145);
+	margin-left: 150px;
+
+
+
+}
