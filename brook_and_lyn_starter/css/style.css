@@ -12,3 +12,60 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+
+
+body{
+	margin: 0;
+  margin-top: 30px;
+  padding: 5%;
+}
+
+#container { 
+
+	display: block;
+	/* padding-left: 10%; */
+	margin: auto;
+	/* max-width: 75%; */
+	height: auto;
+	width: 80%;
+	padding: 5%''
+}
+
+#images {
+	height: auto;
+	width: 100%;
+}
+
+/* #container > img { 
+
+	height: auto;
+	width: 100%;
+} */ 
+
+
+h4 { 
+	color: navy;
+
+}
+
+.copyright {
+
+	color: #c1c1c9;
+	margin-top: 10px;
+	display: block;
+	padding-left: 10%;
+	/* margin: auto;
+	max-width: 100%;
+    height: auto; */
+}
+
+
+p {
+	color: lightgray;
+	width: 80%;
+	/* padding: auto;
+	padding-right: 20px;
+	margin: auto; */
+	/* max-width: 100%;
+    height: auto; */
+}
