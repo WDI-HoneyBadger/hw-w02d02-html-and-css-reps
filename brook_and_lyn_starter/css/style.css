@@ -12,3 +12,21 @@ Link Hover Color = #20222a
 GO FOR IT  :D   Don't worry about getting it exact!
 
 */
+body {
+	font-size: 12px;
+	line-height: 17px;
+	font-family: "Times New Roman", Times, serif;
+	Color : #656565;
+}
+
+.date {
+	color: #42c2f4;
+
+}
+.read{
+	color: #42c2f4;
+
+}
+h1{
+	color: #656565;
+}
