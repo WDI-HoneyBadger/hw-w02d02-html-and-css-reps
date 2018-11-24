@@ -1,14 +1,62 @@
-/*
+body{
+background-color: whitesmoke;
+font-size: 12px;
+line-height: 17px;
+font-family: 'Times New Roman', Times, serif;
+color:#656565;
+}
+#container{
+display: block;
+position: relative;
+margin-left: 50px;
+margin-right:50px;
+margin-bottom: 5px;
+margin-top: 5px;
 
-## Style Hints:
+}
+#container2{
+display: block;
+position: relative;
+margin-left: 50px;
+margin-right:50px;
+margin-bottom: 5px;
+margin-top: 5px;
 
-Body Font Size = 12px
-	 Line Height = 17px
-	 Font Family = "Times New Roman", serif
-	 Font Color = #656565
+}
+#container3{
 
-Link Hover Color = #20222a
+position: relative;
+margin-left: 100px;
+margin-right:50px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+#container4{
+display: block;
+position: relative;
+margin-left: 100px;
+margin-right:50px;
+margin-bottom: 5px;
+margin-top: 5px;
+		
+}
 
-GO FOR IT  :D   Don't worry about getting it exact!
-
-*/
+.table{
+border:1px solid #000;
+border: 10px solid;
+width: "100px";
+height: "200px";
+}
+.h1{
+height: 60px;
+position: relative;
+}
+a{
+	text-decoration: none;
+}
+:hover{
+color: #20222a;	
+}
+h4{
+color:blue;
+}
