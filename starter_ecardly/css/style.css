@@ -7,64 +7,99 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+ clear: both;
 }
 
 .alignright {
-	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+ float: right;
+ padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
-	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+ float: left;
+ padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+.logo{
+
+  text-align: center;
+}
 /*-----------------------------------------------------------------------------
 BASE STYLE
 -----------------------------------------------------------------------------*/
 
 
 /* ??  NOTE: These are the css selectors we used...
-        feel free to use any you want! */
+     feel free to use any you want! */
 
 /* Write your CSS here! */
 
 body {
-  /*  What syles apply to all of the body contain */
-  /* background? font-faimly?  etc.*/
+/*  What syles apply to all of the body contain */
+/* background? font-faimly?  etc.*/
+background-color: #d6d6d6;
+background-image: url(https://github.com/Bader1011/hw-w02d02-html-and-css-reps/blob/master/starter_ecardly/images/background.jpg?raw=true);
+background-repeat: repeat-x;
+
+padding-top: .35px;
+padding-bottom: .35px;
+line-height: 1.7;
+
+
+
+/* background-color: $color-body;
+font-size: 20px;
+box-sizing: border-box;
+font-family: Lato, sans-serif; */
 }
 
 a {
-	/* How are 'a' tags styled? */
+ /* How are 'a' tags styled? */
+
+ color:#ff3300;
+ text-decoration: none;
+ text-align: right
 }
 
 h1 a {
-  /* What should 'a' tags WITHIN 'h1' tags look like? */
+/* What should 'a' tags WITHIN 'h1' tags look like? */
+
+/* background-image: url(https://github.com/Bader1011/hw-w02d02-html-and-css-reps/blob/master/starter_ecardly/images/logo.png?raw=true); */
+ 
+z-index: 1;
 }
 
 h2 {
-  /* What should 'h2' tags look like? */
+/* What should 'h2' tags look like? */
+
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 h2 a {
-    /* What should 'a' tags WITHIN 'h2' tags look like? */
+ /* What should 'a' tags WITHIN 'h2' tags look like? */
+
+ text-decoration: none;
+ color: black;
+ text-align: right
+
 }
 
 
@@ -74,49 +109,99 @@ LAYOUT
 -----------------------------------------------------------------------------*/
 
 /* NOTE: These are the css selectors we used...
-        feel free to use any you want! */
+     feel free to use any you want! */
 
 /* Center the container */
 #container {
-	/* ??  */
+text-align: center;
+
+ /* ??  */
 }
 
 #header {
-	/* ??  */
+ /* ??  */
+
+
+ 
+
+
+ 
 }
 
 #main {
-	/* ??  */
+ /* ??  */
+
+width: 80%;
+height: 200vh;
+min-height: 100px;
+border: 1px;
+float: left; 
+width: 850px;
+
 }
 
 .post {
-  /* ??  */
+
+
+text-align: center;
+background-color: white;
+
 }
 
 .post-meta {
-  /* ??  */
+
+text-decoration: none;
+text-align: center;
+
+/* ??  */
 }
 
 #sidebar {
-	/* ??  */
+ /* ??  */
+
+overflow: auto;
+padding: 15px;
+float: right;
+
+height: 100%;
+padding-top: 30px;
+border: 1px;
+
+background-color: white
+
+
+
 }
 
 #sidebar .widget {
-  /* ??  */
+width: 40%; 
+
+
 }
 
 #sidebar ul {
-	/* ??  */
+ /* ??  */
+
+
+
+
 }
 
 #sidebar li {
-	/* ??  */
+ /* ??  */
+
 }
 
 #sidebar a {
-	/* ??  */
+ /* ??  */
+
+ text-align: right;
 }
 
 footer {
-	/* ??  */
+ /* ??  */
+
+
+margin-top: 10%;
+display: inline-block;
 }
