@@ -1,14 +1,45 @@
-/*
 
-## Style Hints:
+Body{
 
-Body Font Size = 12px
-	 Line Height = 17px
-	 Font Family = "Times New Roman", serif
-	 Font Color = #656565
+	background-color: rgb(226, 218, 208);
+	
+	font-family: 'Times New Roman', Times, serif;
+	color:#656565;
+	height : 17px;
+	height: 17px;
+	font-size : 12px;
 
-Link Hover Color = #20222a
+	
+}
+#ccontainer , #box1 {
 
-GO FOR IT  :D   Don't worry about getting it exact!
 
-*/
+	margin: 0 auto;
+	align-content: center;
+
+
+
+	
+}
+
+ h2{
+
+	color: darkcyan;
+ }
+line{
+
+}
+a:hover {
+
+	color: #20222a;
+
+	text-decoration-color: 228eaf;
+
+}
+
+footer{
+
+	text-align: center;
+text-decoration-color: #656565;
+}
+
